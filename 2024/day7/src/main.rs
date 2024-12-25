@@ -58,7 +58,7 @@ fn main() {
                 .split_whitespace()
                 .map(|v| v.parse().unwrap())
                 .collect();
-            map.push((key, values));  // corrected line
+            map.push((key, values));  
         }
         lines_count += 1;
     }
